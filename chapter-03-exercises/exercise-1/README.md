@@ -3,7 +3,11 @@ In this exercise you'll practice using git to clone and edit repositories, as wi
 
 1. If you haven't already, configure your name and email address for your GitHub account using the terminal.
 
+  git config --global user.name "Arjun Vaghela"
+
 2. If you haven't already create your own version of this repository on GitHub by using the link to using GitHub Classroom.
+
+
 
 3. Using the terminal, clone **your version** of the repository to your machine (make sure you're in the desired directory on your terminal).
 
