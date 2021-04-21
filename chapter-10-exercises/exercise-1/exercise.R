@@ -2,28 +2,28 @@
 
 # Create a vector of the number of points the Seahawks scored in the first 4 games
 # of the season (google "Seahawks" for the scores!)
-
+number_of_points <- c(38, 35, 38, 31)
 
 # Create a vector of the number of points the Seahwaks have allowed to be scored
 # against them in each of the first 4 games of the season
-
+points_allowed <- c(25, 30, 31, 23)
 
 # Combine your two vectors into a dataframe called `games`
-
+games <- data.frame(number_of_points, points_allowed)
 
 # Create a new column "diff" that is the difference in points between the teams
 # Hint: recall the syntax for assigning new elements (which in this case will be
 # a vector) to a list!
-
+games$diff <- games$number_of_points - games$points_allowed
 
 # Create a new column "won" which is TRUE if the Seahawks won the game
-
+games$won <- games$diff > 0
 
 # Create a vector of the opponent names corresponding to the games played
-
+opponents <- c("Falcons", "Patriots", "Cowboys", "Dolphins")
 
 # Assign your dataframe rownames of their opponents
-
+rownames(games) <- opponents
 
 # View your data frame to see how it has changed!
-
+View(games)
