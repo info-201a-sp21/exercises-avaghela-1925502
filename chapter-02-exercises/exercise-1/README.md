@@ -20,13 +20,13 @@ Open up your command-line terminal, and perform the following tasks (no need to 
 # List the contents of the folder to verify the new file is there
 
 
-# Search online for the text of the US Constitution and paste it into the 
+# Search online for the text of the US Constitution and paste it into the
 # "constitution.txt" file you created. Save your changes through the editor.
 
 
 # Display the contents of the "constitution.txt" file in the terminal
 # Hint: use the `less` command so you can easily scroll up and down.
-# For windows users: use the `more` command. 
+# For windows users: use the `more` command.
 
 
 # Navigate to the "Desktop" folder for your machine
