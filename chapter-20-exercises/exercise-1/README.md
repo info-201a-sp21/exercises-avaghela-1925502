@@ -1,3 +1,5 @@
+**Cool lit sentence for info 201**
+
 # Exercise 1
 In this exercise, you'll practice working with branches, including **merging** changes between them.
 
