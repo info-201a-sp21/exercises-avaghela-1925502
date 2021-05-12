@@ -1,7 +1,7 @@
 # Exercise 2
 In this exercise, you'll practice resolving a merge conflict.
 
-> "I'm the king of the world!" - Jack Dawson (Titanic)
+> "I'm the king of the world!"" - Jack Dawson (Titanic)
 
 To complete the exercise, follow the below steps:
 
