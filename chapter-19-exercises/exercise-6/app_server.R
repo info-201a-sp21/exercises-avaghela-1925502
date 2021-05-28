@@ -17,4 +17,8 @@ joined_data <- joined_data %>% mutate(ratio = votes/population * 100000)
 # Define server function
   
   # Render a plotly object that returns your map
-  
+server <- function(input, output) {
+  output$map <- renderPlotly({ 
+    return(build_map(joined_data, input$mapvar))
+  })
+}

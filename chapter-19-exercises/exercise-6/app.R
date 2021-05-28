@@ -8,6 +8,8 @@ library("shiny")
 
 # You will need to fill in the `app_ui.R` file to create the layout.
 # Run the app through this file.
+source("app_ui.R")
+source("app_server.R")
 
 # Create a new `shinyApp()` using the loaded `ui` and `server` variables
-
+shinyApp(ui = ui, server = server)
